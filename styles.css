@@ -283,6 +283,29 @@ a {
   text-decoration: none;
 }
 
+.link-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: 0.01rem;
+  box-shadow: 0 10px 20px rgba(27, 28, 31, 0.12);
+  border: 1px solid transparent;
+  background: #fff;
+}
+
+.link-chip.facebook {
+  border-color: rgba(24, 119, 242, 0.35);
+  color: #1877f2;
+}
+
+.link-chip.google {
+  border-color: rgba(219, 68, 55, 0.35);
+  color: #db4437;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
